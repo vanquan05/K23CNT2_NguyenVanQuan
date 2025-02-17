@@ -1,5 +1,5 @@
 import React from "react";
-import { HvtCompInfor } from "./HvtCompInfor";
+import  NvqCompInfor  from "./NvqCompInfor";
 
 function App() {
   const studentInfo = {
@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <h1>Thông tin cá nhân</h1>
-      <HvtCompInfor info={studentInfo} />
+      <NvqCompInfor info={studentInfo} />
     </div>
   );
 }
