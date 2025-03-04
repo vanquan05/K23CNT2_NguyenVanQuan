@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 
  class NvqClassCompEvetProps extends Component {
+
   // ham su ly su kien
     nvqEventHandleClick1 = ()=>{
     alert("Hello..." +this.props.nvqRenderTile);  
