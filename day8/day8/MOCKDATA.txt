@@ -1,0 +1,6 @@
+nvqStudents:[
+        {nvqId:"SV001",nvqStudentName:"Nguyen Van Quan",nvqAge:46,nvqGender:"Nam",tvcBirthday:"13/06/2005",tvcBirthPlace:"HN", nvqAddress:"Tòa VCN, 25 Vũ Ngọc Phan"},
+        {nvqId:"SV002",nvqStudentName:"Chu Nguyên Chương",nvqAge:188,nvqGender:"Nữ",tvcBirthday:"25/05/1179",tvcBirthPlace:"HP",nvqAddress:"Trung quốc"},
+        {nvqId:"SV003",nvqStudentName:"Tần Thủy Hoàng",nvqAge:55,nvqGender:"Nam",tvcBirthday:"25/05/1079",tvcBirthPlace:"TpHCM", nvqAddress:"Trung Quốc"},
+        {nvqId:"SV004",nvqStudentName:"Hoàng Thùy Linh",nvqAge:55,nvqGender:"Nam",tvcBirthday:"25/05/1079",tvcBirthPlace:"TpHCM", nvqAddress:"Hồ chí minh"},
+      ]

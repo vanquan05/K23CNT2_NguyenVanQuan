@@ -1,6 +1,5 @@
 
 import React, { Component } from 'react';
-import NvqLoginComp from './componets/NvqLoginComp';
 import NvqLoginControl from './componets/NvqLoginControl';
 
 class NvqApp extends Component {
