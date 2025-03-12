@@ -10,7 +10,7 @@ class NvqStudentList extends Component {
         // Hàm xử lý sự kiện xêm
     nvqHandleView = (nvqStudent)=>{
         // Chuyển dữ liệu lên TvcApp
-        this.props.onNvqHandleView(nvqStudent);
+        this.props.onnvqHandleView(nvqStudent);
     }
 
 

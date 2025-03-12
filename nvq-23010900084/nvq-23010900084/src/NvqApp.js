@@ -1,8 +1,7 @@
 
 import React, { Component } from "react";
-import NvqControl from "./components/NvqControl";
-import NvqStudentList from "./components/NvqStudentList";
-import NvqForm from "./components/NvqForm";
+import NvqMemberList from "./components/NvqMemberList";
+import NvqMemberAdd from "./components/NvqMemberAdd";
 
 class NvqApp extends Component {
   constructor(props){
@@ -42,7 +41,7 @@ class NvqApp extends Component {
               <div className="card">
 
                 {/* header */}
-                <NvqControl  />
+                <NvqMemberList  />
                 {/* danh sách sinh vien  */}
                 <NvqStudentList  renderNvqStudents={this.state.NvqStudents} onNvqHandleView={this.nvqHandleView}/>
               </div>
@@ -50,7 +49,7 @@ class NvqApp extends Component {
 
             <div className="col-5 grid-margin">
               {/* form  */}
-              <NvqForm  renderNvqStudent = {this.state.nvqStudent}/>
+              <NvqMemberAdd  renderNvqStudent = {this.state.nvqStudent}/>
             </div>
           </div>
         </section>
