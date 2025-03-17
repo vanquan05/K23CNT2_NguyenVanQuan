@@ -9,7 +9,7 @@ class NvqApp extends Component {
     super(props);
     this.state = {
       NvqStudents:[
-        {NvqId:"SV001",NvqStudentName:"Nguyễn Văn Quân",NvqAge:46,NvqGender:"Nam",NvqBirthday:"13/06/2005",NvqBirthPlace:"HN",NvqAddress:"Tòa VCN, 25 Vũ Ngọc Phan"},
+        {NvqId:"SV2310900084",NvqStudentName:"Nguyễn Văn Quân",NvqAge:46,NvqGender:"Nam",NvqBirthday:"13/06/2005",NvqBirthPlace:"HN",NvqAddress:"Tòa VCN, 25 Vũ Ngọc Phan"},
         {NvqId:"SV002",NvqStudentName:"Chu Nguyên Chương",NvqAge:188,NvqGender:"Nữ",NvqBirthday:"25/05/1179",NvqBirthPlace:"HP", NvqAddress:"Trung quốc"},
         {NvqId:"SV003",NvqStudentName:"Tần Thủy Hoàng",NvqAge:55,NvqGender:"Nam",NvqBirthday:"25/05/1079",NvqBirthPlace:"TpHCM", NvqAddress:"Trung Quốc"},
         {NvqId:"SV004",NvqStudentName:"Hoàng Thùy Linh",NvqAge:55,NvqGender:"Nam",NvqBirthday:"25/05/1079",NvqBirthPlace:"TpHCM", NvqAddress:"Hồ chí minh"},
