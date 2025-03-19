@@ -4,8 +4,8 @@ import './index.css';
 import NvqApp from './NvqApp';
 import reportWebVitals from './reportWebVitals';
 
-const nvqRoot = ReactDOM.createRoot(document.getElementById('nvqRoot'));
-nvqRoot.render(
+const Nvqroot = ReactDOM.createRoot(document.getElementById('Nvqroot'));
+Nvqroot.render(
   <React.StrictMode>
     <NvqApp />
   </React.StrictMode>
